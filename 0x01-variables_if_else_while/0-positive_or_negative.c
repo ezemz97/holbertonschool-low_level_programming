@@ -5,12 +5,11 @@
 * main - Entry point
 * return: Always 0 (Success)
 */
-int main(void)
+imt main(void)
 {
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-/* your code goes there */
 if (n > 0)
 {
 printf("%i is positive\n", n);

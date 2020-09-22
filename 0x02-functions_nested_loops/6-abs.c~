@@ -1,0 +1,17 @@
+#include "holberton.h"
+#include <stdio.h>
+
+int _abs(int r)
+{
+int x = (-1);
+if (r < 0)
+{
+r = r + x;
+return (r);
+}
+else
+{
+return (r);
+}
+return (0);
+}

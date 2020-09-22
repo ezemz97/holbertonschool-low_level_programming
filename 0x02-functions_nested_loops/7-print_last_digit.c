@@ -1,0 +1,13 @@
+#include "holberton.h"
+#include <stdio.h>
+
+int print_last_digit(int r)
+{
+int x = (r % 10);
+if (x < 0)
+{
+  x = x * (-1);
+}
+_putchar ('0' + x);
+return (x);
+}

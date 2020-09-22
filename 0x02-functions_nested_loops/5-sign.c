@@ -1,5 +1,9 @@
 #include "holberton.h"
-/* print_sign */
+/**
+ * print_sign - check the code for Holberton School students.
+ * @n: var
+ * Return: Always 0.
+ */
 int print_sign(int n)
 {
 if (n > 0)

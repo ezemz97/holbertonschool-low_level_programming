@@ -1,9 +1,14 @@
 #include <stdio.h>
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
 
-int a = 0, x = 0;
-
-int main (void)
+int main(void)
 {
+	int a = 0, x = 0;
+
 	while (a < 1024)
 	{
 		a++;

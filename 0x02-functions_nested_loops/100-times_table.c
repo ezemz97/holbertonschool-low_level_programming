@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * times_table - check the code for Holberton School students.
- *
+ * print_times_table - check the code for Holberton School students.
+ * @n: input var
  * Return: Always 0.
  */
 

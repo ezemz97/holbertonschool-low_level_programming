@@ -10,10 +10,10 @@ int main(void)
 {
 	int before = 1, after = 1, product, x;
 
-	for (x = 0, x < 48, x++)
+	for (x = 0; x < 48; x++)
 	{
 		printf("%d, ", before);
 		product = (after + before);
-		before = after
+		before = after;
 	}
 }

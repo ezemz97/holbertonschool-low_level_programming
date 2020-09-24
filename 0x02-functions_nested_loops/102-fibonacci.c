@@ -8,12 +8,13 @@
 
 int main(void)
 {
-	int before = 0, after = 1, product, x;
+	long before = 1, after = 1, product, x;
 
+	putchar('0' + 1);
 	for (x = 0; x < 48; x++)
-	{	
+	{
 		product = before + after;
-		printf("%d, ", product);
+		printf(", %li", product);
 		before = after;
 		after = product;
 	}

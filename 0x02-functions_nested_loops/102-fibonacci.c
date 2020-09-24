@@ -18,4 +18,5 @@ int main(void)
 		before = after;
 		after = product;
 	}
+	putchar('\n');
 }

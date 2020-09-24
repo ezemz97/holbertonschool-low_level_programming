@@ -12,7 +12,7 @@ int main(void)
 
 	for (x = 0; x < 48; x++)
 	{	
-		product = before + after
+		product = before + after;
 		printf("%d, ", product);
 		before = after;
 		after = product;

@@ -11,7 +11,7 @@ int main(void)
 	long before = 1, after = 1, product, x;
 
 	putchar('0' + 1);
-	for (x = 0; x < 48; x++)
+	for (x = 0; x < 49; x++)
 	{
 		product = before + after;
 		printf(", %li", product);

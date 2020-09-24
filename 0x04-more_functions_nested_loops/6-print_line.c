@@ -2,24 +2,21 @@
 #include <stdio.h>
 
 /**
- * more_numbers - check the code for Holberton School students.
+ * print_line - check the code for Holberton School students.
+ * @n: var
  * Return: Always 0.
  */
 
-void more_numbers(void)
+void print_line(int n)
 {
-	int x, z;
-	
-	for (x = 0; x < 15; x++)
+	int x;
+
+	if (n > 0)
 	{
-		for (z = 0; z < 15; z++)
+		for (x = 0; x <= n; x++)
 		{
-			if (z >= 10)
-			{
-				_putchar('0' + (z / 10));
-			}
-			_putchar('0' + (z % 10));
+			_putchar('_');
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }

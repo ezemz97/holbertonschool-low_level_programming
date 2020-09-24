@@ -9,13 +9,20 @@ void print_diagonal(int n)
 {
 	int line, column;
 
-	for (line = 0; line < n; line++)
+	if (n > 0)
 	{
-		for (column = 0; column < line; column++)
+		for (line = 0; line < n; line++)
 		{
-			_putchar(' ');
+			for (column = 0; column < line; column++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\\');
+	}
+	else
+	{
 		_putchar('\n');
 	}
 }

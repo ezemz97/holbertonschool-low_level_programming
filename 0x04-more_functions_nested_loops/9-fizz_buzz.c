@@ -2,23 +2,11 @@
 
 /**
  * main - entry point
- * fizz_buzz: function
- * Return: 0 (success)
  *
+ * Return: 0 (success)
  */
 
 int main(void)
-{
-	fizz_buzz();
-	return (0);
-}
-
-/**
- * fizz_buzz - 1 to 100 but it's fizzy and buzzy every
- */
-
-
-void fizz_buzz(void)
 {
 	int a;
 

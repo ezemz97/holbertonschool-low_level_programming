@@ -16,7 +16,10 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[x] = src[x];
 	}
-	/* can do "dest[x] = src[x]" here to assign the null value because 'src[x]' is null after loop*/
+	/*
+	 * can do "dest[x] = src[x]" here
+	 * to assign the null value because 'src[x]' is null after loop
+	 */
 	dest[x++] = '\0';
 	return (dest);
 }

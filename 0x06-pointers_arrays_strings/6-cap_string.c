@@ -25,9 +25,9 @@ char *cap_string(char *str)
 				str[x] == '\t'
 		   )
 		{
-			if (str[x] >= 'a' && str[x] <= 'z')
+			if (str[x + 1] >= 'a' && str[x + 1] <= 'z')
 			{
-				str[x] = str[x] - 32;
+				str[x + 1] = str[x + 1] - 32;
 			}
 		}
 	}

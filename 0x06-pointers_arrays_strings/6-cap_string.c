@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * cap_string - check the code for Holberton School students.
+ * @str: string
  * Return: Always 0.
  */
 

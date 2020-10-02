@@ -7,9 +7,9 @@ Many later languages have borrowed syntax/features directly or indirectly from C
 > Source: https://www.geeksforgeeks.org/
 
 ### Low-level programming & Algorithm - Hatching out 
-[0x00. C - Hello, World](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
-[0x01. C - Variables, if, else, while](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
-[0x02. C - Functions, nested loops](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
-[0x03-debugging](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
-[0x04. C - More functions, more nested loops](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
-[0x05. C - Pointers, arrays and strings](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
+* [0x00. C - Hello, World](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
+* [0x01. C - Variables, if, else, while](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
+* [0x02. C - Functions, nested loops](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
+* [0x03-debugging](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
+* [0x04. C - More functions, more nested loops](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hellLow-level programming & Algorithm - Hatching out o_world)
+* [0x05. C - Pointers, arrays and strings](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)

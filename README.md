@@ -18,37 +18,13 @@ Many later languages have borrowed syntax/features directly or indirectly from C
 1. > **6-size.c** - C program that prints the size of various types on the computer it is compiled and run on.
 1. > **7. What happens when you type gcc main.c**
 1. > **100-intel** - script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
-
-
-
+---
 * [0x01. C - Variables, if, else, while](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
-
-
-
-
-
-
-
+---
 * [0x02. C - Functions, nested loops](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
-
-
-
-
-
-
+---
 * [0x03. C - Debugging](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
-
-
-
-
-
-
+---
 * [0x04. C - More functions, more nested loops](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x04-more_functions_nested_loops)
-
-
-
-
-
-
-
+---
 * [0x05. C - Pointers, arrays and strings](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)

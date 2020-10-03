@@ -9,16 +9,16 @@ Many later languages have borrowed syntax/features directly or indirectly from C
 ### Low-level programming & Algorithm - Hatching out
 
 * [0x00. C - Hello, World](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
-> **0-isupper.c** - script that runs a C file through the preprocessor and save the result into another file.
-> **1. Compiler** - script that compiles a C file but does not link.
-> **2. Assembler** - script that generates the assembly code of a C code and save it in an output file
-> **3. Name** - script that compiles a C file and creates an executable named cisfun
-> **4. Hello, puts** - C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
-> **5. Hello, printf** - C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
-> **6. Size is not grandeur, and territory does not make a nation** - C program that prints the size of various types on the computer it is compiled and run on.
-> **7. What happens when you type gcc main.c**
-> **8. Intel** - script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
-> **9. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity**
+1. > **0-isupper.c** - script that runs a C file through the preprocessor and save the result into another file.
+1. > **1. Compiler** - script that compiles a C file but does not link.
+1. > **2. Assembler** - script that generates the assembly code of a C code and save it in an output file
+1. > **3. Name** - script that compiles a C file and creates an executable named cisfun
+1. > **4. Hello, puts** - C program that prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+1. > **5. Hello, printf** - C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+1. > **6. Size is not grandeur, and territory does not make a nation** - C program that prints the size of various types on the computer it is compiled and run on.
+1. > **7. What happens when you type gcc main.c**
+1. > **8. Intel** - script that generates the assembly code (Intel syntax) of a C code and save it in an output file.
+1. > **9. UNIX is basically a simple operating system, but you have to be a genius to understand the simplicity**
 
 
 

@@ -73,7 +73,7 @@ Advanced:
 1. > **9-fizz_buzz.c** - C program that prints the numbers from 1 to 100, followed by a new line. But for multiples of three print Fizz instead of the number and for the multiples of five print Buzz. For numbers which are multiples of both three and five print FizzBuzz.
 1. > **10-print_triangle.c** - C function that prints a triangle, followed by a new line.
 ---
-* [0x05. C - Pointers, arrays and strings](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
+* [0x05. C - Pointers, arrays and strings](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x05-pointers_arrays_strings)
 1. > **0-reset_to_98.c** - C function that takes a pointer to an int as parameter and updates the value it points to to 98.
 1. > **1-swap.c** - C function that swaps the values of two integers.
 1. > **2-strlen.c** - C function that returns the length of a string.

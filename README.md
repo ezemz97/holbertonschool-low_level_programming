@@ -32,7 +32,7 @@ Many later languages have borrowed syntax/features directly or indirectly from C
 1. > **9-print_comb.c** - C program that prints all possible combinations of single-digit numbers.
 1. > **10-print_comb2.c** - C program that prints the numbers from 00 to 99.
 
-Advanced---
+Advanced ---
 * > **100-print_comb3.c** - C program that prints all possible different combinations of two digits. (opt)
 * > **101-print_comb4.c** - C program that prints all possible different combinations of three digits. (opt)
 ---

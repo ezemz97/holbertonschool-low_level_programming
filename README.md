@@ -31,9 +31,9 @@ Many later languages have borrowed syntax/features directly or indirectly from C
 1. > **8-print_base16.c** - C program that prints all the numbers of base 16 in lowercase, followed by a new line.
 1. > **9-print_comb.c** - C program that prints all possible combinations of single-digit numbers.
 1. > **10-print_comb2.c** - C program that prints the numbers from 00 to 99.
-Advanced:
-1. > **100-print_comb3.c** - C program that prints all possible different combinations of two digits. (opt)
-1. > **101-print_comb4.c** - C program that prints all possible different combinations of three digits. (opt)
+-Advanced---
+* > **100-print_comb3.c** - C program that prints all possible different combinations of two digits. (opt)
+* > **101-print_comb4.c** - C program that prints all possible different combinations of three digits. (opt)
 ---
 * [0x02. C - Functions, nested loops](https://github.com/ezedksl/holbertonschool-low_level_programming/tree/master/0x00-hello_world)
 1. > **0-holberton.c** - C program that prints Holberton, followed by a new line.

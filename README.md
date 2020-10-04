@@ -31,7 +31,7 @@ Many later languages have borrowed syntax/features directly or indirectly from C
 1. > **8-print_base16.c** - C program that prints all the numbers of base 16 in lowercase, followed by a new line.
 1. > **9-print_comb.c** - C program that prints all possible combinations of single-digit numbers.
 1. > **10-print_comb2.c** - C program that prints the numbers from 00 to 99.
---
+Advanced:
 1. > **100-print_comb3.c** - C program that prints all possible different combinations of two digits. (opt)
 1. > **101-print_comb4.c** - C program that prints all possible different combinations of three digits. (opt)
 ---
@@ -47,7 +47,7 @@ Many later languages have borrowed syntax/features directly or indirectly from C
 1. > **9-times_table.c** - C function that prints the 9 times table, starting with 0.
 1. > **10-add.c** - C function that adds two integers and returns the result.
 1. > **11-print_to_98.c** - C function that prints all natural numbers from n to 98, followed by a new line.
---
+Advanced:
 1. > **100-times_table.c** - C function that prints the n times table, starting with 0. (opt)
 1. > **101-natural.c** - C program that computes and prints the sum of all the multiples of 3 or 5 below 1024 (excluded), followed by a new line. (opt)
 1. > **102-fibonacci.c** - C program that prints the first 50 Fibonacci numbers, starting with 1 and 2, followed by a new line. (opt)

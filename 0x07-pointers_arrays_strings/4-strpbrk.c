@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
+ * *_strpbrk - check the code for Holberton School students.
  * @s: string to search first occurence
  * @accept: any of those chars
  * Return: s and 0

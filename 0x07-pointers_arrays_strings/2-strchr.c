@@ -9,14 +9,22 @@
 
 char *_strchr(char *s, char c)
 {
-	int x;
+	int x, coso = 0;
 
 	for (x = 0; s != '\0'; x++)
 	{
 		if (s[x] == c)
 		{
-			return (s + x);
+			coso = 1;
+			break;
 		}
 	}
-	return ('\0');
+	if (coso == 1)
+	{
+		return (s + x);
+	}
+	else
+	{
+		return (0);
+	}
 }

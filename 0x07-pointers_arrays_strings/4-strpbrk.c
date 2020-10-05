@@ -3,8 +3,9 @@
 
 /**
  * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * @s: string to search first occurence
+ * @accept: any of those chars
+ * Return: s and 0
  */
 
 char *_strpbrk(char *s, char *accept)

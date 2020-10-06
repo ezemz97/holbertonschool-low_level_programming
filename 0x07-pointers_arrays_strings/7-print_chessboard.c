@@ -13,7 +13,7 @@ for (x = 0; x < 8; x++)
 {
 for (z = 0; z < 8; z++)
 {
-_putchar (a[i][j]);
+_putchar (a[x][z]);
 }
 _putchar ('\n');
 }

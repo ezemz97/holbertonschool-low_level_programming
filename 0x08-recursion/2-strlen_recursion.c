@@ -1,16 +1,18 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  * main - check the code for Holberton School students.
- * @s: 
+ *
  * Return: Always 0.
  */
 
-void _print_rev_recursion(char *s)
+int _strlen_recursion(char *s)
 {
 	if (*s)
 	{
-		_print_rev_recursion(s + 1);
-		_putchar(*s);
+		return (1 + _strlen_recursion(s + 1));
+		
 	}
+	return (0);
 }

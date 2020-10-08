@@ -2,8 +2,8 @@
 
 /**
  * _puts_recursion - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * @s: string
+ * Return: void.
  */
 
 void _puts_recursion(char *s)

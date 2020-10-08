@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _pow_recursion - check the code for Holberton School students.
+ * @x: int
+ * @y: count
+ * Return: -1 1 rec.
  */
 
 int _pow_recursion(int x, int y)

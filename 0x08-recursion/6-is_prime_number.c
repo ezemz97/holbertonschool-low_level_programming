@@ -4,8 +4,8 @@
 int prime(int n, int in);
 
 /**
- * main - check the code for Holberton School students.
- *
+ * is_prime_number - check the code for Holberton School students.
+ * @n: int
  * Return: Always 0.
  */
 
@@ -17,6 +17,13 @@ int is_prime_number(int n)
 	}
 	return (prime(n, 2));
 }
+
+/**
+ * prime - check the code for Holberton School students.
+ * @n: int
+ * @in: count
+ * Return: Always 0.
+ */
 
 int prime(int n, int in)
 {

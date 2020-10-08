@@ -5,8 +5,8 @@ int _sqrt(int n, int x);
 
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _sqrt_recursion - check the code for Holberton School students.
+ * @n: int input
  * Return: Always 0.
  */
 int _sqrt_recursion(int n)
@@ -14,7 +14,12 @@ int _sqrt_recursion(int n)
 	return (_sqrt(n, 1));
 }
 
-
+/**
+ * _sqrt - check the code for Holberton School students.
+ * @n: int inputx: count
+ * @x: count
+ * Return: Always 0.
+ */
 int _sqrt(int n, int x)
 {
 	if (x * x == n)

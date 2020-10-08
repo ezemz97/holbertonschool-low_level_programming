@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * factorial - check the code for Holberton School students.
+ * @n: int
  * Return: Always 0.
  */
 

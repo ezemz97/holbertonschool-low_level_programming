@@ -32,7 +32,9 @@ int prime(int n, int in)
 		return (1);
 	}
 	else if (n % in == 0)
+	{
 		return (0);
+	}
 	else
 	{
 		return (prime(n, in + 1));

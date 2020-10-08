@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - check the code for Holberton School students.
- *
+ * _strlen_recursion - check the code for Holberton School students.
+ * @s: string
  * Return: Always 0.
  */
 

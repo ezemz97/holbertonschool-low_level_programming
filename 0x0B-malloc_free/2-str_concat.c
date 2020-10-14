@@ -32,6 +32,8 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	concstr = malloc(l1 + l2 + 1);
+	if (concstr == NULL)
+		return (NULL);
 
 	while (s1[x] != '\0')
 	{

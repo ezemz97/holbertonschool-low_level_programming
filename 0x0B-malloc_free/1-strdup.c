@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
   * *_strdup - Return an array of bytes 'h'
-  * @str: memory bytes to allocate
+  * @str: string to copy
   *
   * Return: null if malloc fail, return pointer
   */
@@ -14,16 +14,18 @@ char *_strdup(char *str)
 	char *strDUPE;
 
 	if (str == NULL)
-		return(NULL);
+		return (NULL);
 
-	for (x = 0; str[x] != '\0'; x++);
+	for (x = 0; str[x] != '\0'; x++)
+	{
+	}
 
 	strDUPE = malloc(sizeof(x));
 
 	if (strDUPE == NULL)
 		return (NULL);
 
-	for (z = 0; z < x; z++)
+	for (z = 0; z <= x; z++)
 	{
 		strDUPE[z] = str[z];
 	}

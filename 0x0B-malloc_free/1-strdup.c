@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-  * *create_array - Return an array of bytes 'h'
-  * @size: memory bytes to allocate
-  * @c: character to fill array with
-  * Return: null if malloc fail, null if size == 0
+  * *_strdup - Return an array of bytes 'h'
+  * @str: memory bytes to allocate
+  *
+  * Return: null if malloc fail, return pointer
   */
 
 char *_strdup(char *str)

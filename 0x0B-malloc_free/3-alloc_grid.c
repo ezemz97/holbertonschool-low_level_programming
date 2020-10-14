@@ -19,7 +19,7 @@ int **alloc_grid(int width, int height)
 	if (grid == NULL)
 		return (NULL);
 	/* Contemplate if width or height doesn't have any value (return error) */
-	if (width == 0 || height == 0)
+	if (width <= 0 || height <= 0)
 		return (NULL);
 
 	/* Assign memory to every column for every index of row*/

@@ -29,7 +29,7 @@ int **alloc_grid(int width, int height)
 	/* Assign memory to every column for every index of row*/
 	for (x = 0; x < height; x++)
 	{
-		grid[x] = malloc(sizeof(int) * width);
+		grid[x] = (int *)malloc(sizeof(int) * width);
 		if (grid[x] == NULL)
 		{
 			for (x = x - 1; x > 0; x--)

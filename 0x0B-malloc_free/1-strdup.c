@@ -21,11 +21,10 @@ char *_strdup(char *str)
 	}
 
 	strDUPE = malloc(sizeof(x));
-
 	if (strDUPE == NULL)
 		return (NULL);
 
-	for (z = 0; z <= x; z++)
+	for (z = 0; z < x; z++)
 	{
 		strDUPE[z] = str[z];
 	}

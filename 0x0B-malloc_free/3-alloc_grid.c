@@ -10,36 +10,35 @@
 
 int **alloc_grid(int width, int height)
 {
-	int x, z;
+	int x;
 	int **grid;
 
 	/* Contemplate if width or height doesn't have any value (return error) */
 	if (width <= 0 || height <= 0)
 		return (NULL);
 
-	grid = malloc(sizeof(int) * height);
+	grid = (int **)malloc(sizeof(int *) * height);
 
 	/* Contemplate if memory is allocated into 'grid' (return error) */
 	if (grid == NULL)
+	{
+		free(grid);
 		return (NULL);
+	}
 
 	/* Assign memory to every column for every index of row*/
 	for (x = 0; x < height; x++)
 	{
-		for (z = 0; z < width; z++)
+		grid[x] = malloc(sizeof(int) * width);
+		if (grid[x] = NULL)
 		{
-			grid[z] = malloc(sizeof(int) * width);
+			for (x-1; x > 0; x--)
+			{
+				free(grid[x]);
+			}
+			free(grid);
+			return(NULL);
 		}
 	}
-
 	return (grid);
-
-	/* Free memory of every column in every row index */
-	for (x = 0; x < height; x++)
-	{
-		for (z = 0; z < width; z++)
-		{
-			free(grid[z]);
-		}
-	}
 }

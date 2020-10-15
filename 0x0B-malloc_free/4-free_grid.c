@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-  * free_grid - Concatenate two strings
+  * free_grid - Free space of previous grid
   * @grid: grid
   * @height: height
   * Return: void

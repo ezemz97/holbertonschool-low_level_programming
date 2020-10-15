@@ -18,9 +18,9 @@ int *array_range(int min, int max)
 	sum = (max - min) + 1;
 
 	p = malloc(sizeof(int) * sum);
-	if (p == NULL)
+	if (!p)
 		return (NULL);
 	for (x = 0; x < sum; x++)
-		p[x + min] = x;
+		p[x] = min++;
 	return (p);
 }

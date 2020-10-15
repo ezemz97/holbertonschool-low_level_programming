@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-  * *str_concat - Concatenate two strings
-  * @s1: string 1
-  * @s2: string 2
-  * Return: null if malloc fail, return pointer
+  * *argstostr - Concatenate two strings
+  * @ac: argument count
+  * @av: argument 'strings'
+  * Return: conct
   */
 
 char *argstostr(int ac, char **av)
@@ -37,5 +37,5 @@ char *argstostr(int ac, char **av)
 		conct[kont] = '\n';
 		kont++;
 	}
-	return(conct);
+	return (conct);
 }

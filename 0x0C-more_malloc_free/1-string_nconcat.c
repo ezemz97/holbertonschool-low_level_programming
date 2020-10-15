@@ -36,7 +36,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		while (s2[z] != '\0')
 		{
 			p[x + z] = s2[z];
-			z++;'
+			z++;
 		}
 	}
 	else

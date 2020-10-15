@@ -32,8 +32,10 @@ int **alloc_grid(int width, int height)
 		/* Assign memory to every column for every index of row */
 		grid[x] = (int *)malloc(sizeof(int) * width);
 
-		/* If memory allocation fails in any iteration, 
-		free the memory and return NULL */
+		/* 
+		* If memory allocation fails in any iteration, 
+		* free the memory and return NULL 
+		*/
 		/* Probably don't need this, maybe the 'if' check and return NULL */
 		if  (grid[x] == NULL)
 		{

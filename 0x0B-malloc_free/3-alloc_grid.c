@@ -26,11 +26,18 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 
-	/* Assign memory to every column for every index of row*/
+	/* Go over every index to every row */
 	for (x = 0; x < height; x++)
 	{
+		/* Assign memory to every column for every index of row */
 		grid[x] = (int *)malloc(sizeof(int) * width);
-		if (grid[x] == NULL)
+
+		/* 
+		* If memory allocation fails in any iteration, 
+		* free the memory and return NULL 
+		*/
+		/* Probably don't need this, maybe the 'if' check and return NULL */
+		if  (grid[x] == NULL)
 		{
 			for (x = x - 1; x >= 0; x--)
 			{

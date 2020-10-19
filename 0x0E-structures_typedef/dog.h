@@ -8,6 +8,8 @@
   *
   * Description: doggy members = doggy name age and owner
   */
+
+/* dog start */
 struct dog
 {
 	char *name;
@@ -15,6 +17,9 @@ struct dog
 	char *owner;
 };
 
+typedef struct dog dog_t;
+
+/* dog end */
 
 int _putchar(char c);
 void init_dog(struct dog *d, char *name, float age, char *owner);

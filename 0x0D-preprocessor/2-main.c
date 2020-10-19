@@ -1,3 +1,11 @@
-#ifndef __BASE_FILE__
-#define __BASE_FILE__
-#endif
+#include <stdio.h>
+
+/**
+  * main - void
+  * Return: 0
+  */
+
+int main(void)
+{
+	printf("%s", __BASE_FILE__)
+}

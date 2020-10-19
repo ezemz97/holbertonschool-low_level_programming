@@ -66,8 +66,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 	namelen = _strlen_recursion(name);
 	ownerlen = _strlen_recursion(owner);
 
-	namecpy = malloc(sizeof(char) * (namelen + 1));
-	ownercpy = malloc(sizeof(char) * (ownerlen + 1));
+	namecpy = malloc(sizeof(char) * (namelen));
+	ownercpy = malloc(sizeof(char) * (ownerlen));
 	if (namecpy == NULL || ownercpy == NULL)
 	{
 		free(namecpy);

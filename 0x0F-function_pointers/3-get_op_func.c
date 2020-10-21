@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include "function_pointers.h"
 #include "3-calc.h"
-#include <string.h>
 /**
   * get_op_func - function name
   * @s: string

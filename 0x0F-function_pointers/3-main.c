@@ -1,7 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "3-calc.h"
-
+/**
+  * main - mian
+  * @argc: - argument count
+  * @argv: arguments
+  * Return: coso
+  */
 
 int main(int argc, char *argv[])
 {
@@ -10,12 +15,10 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		exit (98);
+		exit(98);
 	}
 
 	x = get_op_func(argv[2])(atoi(argv[1]), atoi(argv[3]));
 	printf("%d\n", x);
-	return(0);
+	return (0);
 }
-
-

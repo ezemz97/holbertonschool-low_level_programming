@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 	x = get_op_func(argv[2])(atoi(argv[1]), atoi(argv[3]));
 	printf("%d\n", x);
-	return (0);
+	return(0);
 }
 
 

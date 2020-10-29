@@ -1,8 +1,9 @@
 #include "lists.h"
 /**
   * add_node - Adds a new node at the beggining of the list
-  * @head: - List from main
-  * @str: - String
+  * @head: List from main
+  * @str: String
+  * Return: newNode address or NULL if malloc fails
   */
 list_t *add_node(list_t **head, const char *str)
 {

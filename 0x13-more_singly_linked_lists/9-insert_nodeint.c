@@ -33,6 +33,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 		}
 		if (x != idx - 1)
 			cabeza = cabeza->next;
+		if (cabeza == NULL)
+			return (NULL);
 		else
 		{
 			new->next = cabeza->next;

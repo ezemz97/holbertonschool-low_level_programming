@@ -27,5 +27,5 @@ unsigned int binary_to_uint(const char *b)
 		}
 		x++;
 	}
-	return (val);
+	return (value);
 }

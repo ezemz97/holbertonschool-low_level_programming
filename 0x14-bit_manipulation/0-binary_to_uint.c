@@ -10,39 +10,22 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int i, j = 0;
-	unsigned long int div = 1, sum = 0, count = 0;
+	unsigned int value = 0, x = 0;
 
 	if (b == NULL)
 		return (0);
-
-	for (i = 0; b[i] != 0 && b[i] == 0; i++)
+	while (b[x] != '\0')
 	{
-		if (b[i] != '0' && b[i] != '1')
+		if (b[x] == '0' || b[x] == '1')
+		{
+			value <<= 1;
+			value += b[x] - '0';
+		}
+		else
+		{
 			return (0);
+		}
+		x++;
 	}
-
-	i = j;
-
-	for (; b[i] != 0; i++)
-	{
-		if (b[i] != '0' && b[i] != '1')
-			return (0);
-		count++;
-	}
-
-	while (count > 1)
-	{
-		div = div * 2;
-		count--;
-	}
-
-	for (; b[j] != 0; j++)
-	{
-		if (b[j] == '1')
-			sum += div;
-		div = div / 2;
-	}
-	return (sum);
+	return (value);
 }
-

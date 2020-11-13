@@ -1,8 +1,8 @@
 ![Holberton Logo](https://www.exponcapital.com/wp-content/uploads/2017/10/holberton-1.png)
 
-`C
+```C
 printf("%d", 23);
-`
+```
 
 # C Language Introduction
 

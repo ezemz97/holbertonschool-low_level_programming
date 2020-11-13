@@ -1,4 +1,7 @@
-![Holberton Logo](https://www.exponcapital.com/wp-content/uploads/2017/10/holberton-1.png)
+<p align="center">
+  <img width="460" height="300" src="https://www.exponcapital.com/wp-content/uploads/2017/10/holberton-1.png">
+</p>
+
 
 ```C
 printf("%d", 23);

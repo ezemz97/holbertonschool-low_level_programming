@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1000" height="1000" src="https://www.exponcapital.com/wp-content/uploads/2017/10/holberton-1.png">
+  <img width="600" height="600" src="https://www.exponcapital.com/wp-content/uploads/2017/10/holberton-1.png">
 </p>
 
 

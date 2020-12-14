@@ -9,8 +9,9 @@
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
 	dlistint_t *new, *head = *h;
-	size_t len = dlistint_len(*h);
+	size_t len = 0;
 
+	len = dlistint_len(*h);
 	if (!*h || idx == 0)
 		return (add_dnodeint(h, n));
 	else if (idx == len)

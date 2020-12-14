@@ -22,10 +22,12 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 	if (*head == NULL)
 	{
 		*head = new;
-		return (new);
 	}
-	/* else, assign previous of head to new node and head as new */
-	(*head)->prev = new;
-	*head = new;
+	else
+	{
+		/* else, assign previous of head to new node and head as new */
+		(*head)->prev = new;
+		*head = new;
+	}
 	return (new);
 }

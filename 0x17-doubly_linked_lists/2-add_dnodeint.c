@@ -1,7 +1,6 @@
 #include "lists.h"
 /**
   * add_dnodeint - Return address of new beginning node
-  * dlistint_t - struct type
   * @head: head
   * @n: data
   * Return: New node

@@ -31,7 +31,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 		return (NULL);
 	/* Set every pointer of the array to NULL (good practice) */
 	for (; x < size; ++x)
-		array[i] = NULL;
+		array[x] = NULL;
 
 	/*
 	* Store the information of the hash table

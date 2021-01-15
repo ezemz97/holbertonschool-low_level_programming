@@ -9,7 +9,7 @@
 
 hash_table_t *hash_table_create(unsigned long int size)
 {
-	/*
+	/**
 	* Define the new hash table and
 	* the array of hash nodes structs
 	*/
@@ -22,7 +22,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	hashTable = malloc(sizeof(hash_table_t));
 	if (hashTable == NULL)
 		return (NULL);
-	/*
+	/**
 	* Instantiate the array of pointers to hash nodes,
 	* with the given array size
 	*/
@@ -33,7 +33,7 @@ hash_table_t *hash_table_create(unsigned long int size)
 	for (; x < size; ++x)
 		array[x] = NULL;
 
-	/*
+	/**
 	* Store the information of the hash table
 	* (the initialized array and the number of elements of it)
 	*/

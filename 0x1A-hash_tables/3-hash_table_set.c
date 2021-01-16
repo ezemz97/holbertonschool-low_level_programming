@@ -12,7 +12,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	hash_node_t *hashNode = NULL, *temp = NULL;
 	unsigned long int index = 0;
 
-	if (ht == NULL || ht->array == NULL || ht->size == 0)
+	if (ht == NULL || ht->array == NULL || ht->size == 0
+	|| key == NULL || value == NULL || key == NULL || strcmp(key, ""))
 		return (0);
 
 	/* If node exist and key is matched, assign value to node*/
@@ -23,7 +24,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		{
 			if (strcmp(temp->key, key))
 			{
-				free(temp->value);
 				temp->value = strdup(value);
 				return (1);
 			}

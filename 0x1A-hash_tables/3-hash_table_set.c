@@ -15,21 +15,24 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (ht == NULL || key == NULL || (strcmp(key, "") == 0)
 	|| ht->array == NULL || ht->size == 0)
 		return (0);
-
-	index = key_index((unsigned char *) key, ht->size);
-	temp = ht->array[index];
-
-	if (temp && strcmp(key, temp->key) == 0)
+	index = key_index((const unsigned char *) key, ht->size);
+	if (ht->array[index])
 	{
-		free(temp->value);
-		temp->value = strdup(value);
-		return (1);
+		temp = ht->array[index];
+		while (temp)
+		{
+			if (temp && strcmp(key, temp->key) == 0)
+			{
+				free(temp->value);
+				temp->value = strdup(value);
+				return (1);
+			}
+			temp = temp->next;
+		}
 	}
-
 	hashNode = malloc(sizeof(hash_node_t));
 	if (hashNode == NULL)
 		return (0);
-
 	hashNode->key = strdup(key);
 	hashNode->value = strdup(value);
 	hashNode->next = ht->array[index];

@@ -9,44 +9,30 @@
 */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	hash_node_t *hashNode = NULL, *temp = NULL;
 	unsigned long int index = 0;
+	hash_node_t *temp = NULL, *hashNode = NULL;
 
-	if (ht == NULL || ht->array == NULL || ht->size == 0
-	|| key == NULL || value == NULL || key == NULL || strcmp(key, "") == 0)
+	if (ht == NULL || key == NULL || (strcmp(key, "") == 0)
+	|| ht->array == NULL || ht->size == 0)
 		return (0);
 
-	/* If node exist and key is matched, assign value to node*/
-	if (ht->array[index] != NULL)
+	index = key_index((unsigned char *) key, ht->size);
+	temp = ht->array[index];
+
+	if (temp && strcmp(key, temp->key) == 0)
 	{
-		temp = ht->array[index];
-		while (1)
-		{
-			if (strcmp(temp->key, key) == 0)
-			{
-				temp->value = strdup(value);
-				return (1);
-			}
-			if (temp->next == NULL)
-				break;
-			temp = temp->next;
-		}
+		free(temp->value);
+		temp->value = strdup(value);
+		return (1);
 	}
-	/* If key is not matched, create new node */
+
 	hashNode = malloc(sizeof(hash_node_t));
 	if (hashNode == NULL)
 		return (0);
+
 	hashNode->key = strdup(key);
 	hashNode->value = strdup(value);
-	hashNode->next = NULL;
-
-	/* Check if node exist, if true: insert at the start of the list */
-	if (ht->array[index] != NULL)
-	{
-		hashNode->next = ht->array[index];
-		ht->array[index] = hashNode;
-	}
-	else
-		ht->array[index] = hashNode;
+	hashNode->next = ht->array[index];
+	ht->array[index] = hashNode;
 	return (1);
 }

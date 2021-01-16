@@ -23,6 +23,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		{
 			if (strcmp(temp->key, key))
 			{
+				free(temp->value);
 				temp->value = strdup(value);
 				return (1);
 			}
@@ -39,7 +40,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	hashNode->value = strdup(value);
 	hashNode->next = NULL;
 
-	/* Check if node exist, if true: insert at the end of the list */
+	/* Check if node exist, if true: insert at the start of the list */
 	if (ht->array[index] != NULL)
 	{
 		hashNode->next = ht->array[index];

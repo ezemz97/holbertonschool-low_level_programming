@@ -30,11 +30,12 @@ int binary_search(int *array, size_t size, int value)
 int forUchecker(int *array, int value, int low, int high, size_t size)
 {
 	int mid = low + (high - low) / 2;
+	int i = 0;
 
 	if (high >= low)
 	{
 		printf("Searching in array: ");
-		for (int i = low; i <= high; i++)
+		for (i = low; i <= high; i++)
 		{
 			if (i == high)
 				printf("%d", array[i]);

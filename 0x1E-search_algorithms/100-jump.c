@@ -1,6 +1,6 @@
 #include "search_algos.h"
 /**
- * jumpump_search - Searches a value in an array of ascending integers.
+ * jump_search - Searches a value in an array of ascending integers.
  * @array: pointer to the first element of the array
  * @size: number of elements in array
  * @value: value to search
@@ -24,7 +24,6 @@ int jump_search(int *array, size_t size, int value)
 	jump = i - jump;
 	printf("Value found between indexes [%ld] and [%ld]\n", jump, i);
 	i = i >= size ? size - 1 : i;
-	printf("i: %ld", i);
 
 	while (jump <= i)
 	{

@@ -10,7 +10,7 @@
 int main(void)
 {
     int array[] = {
-        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
     };
     size_t size = sizeof(array) / sizeof(array[0]);
 
@@ -18,6 +18,7 @@ int main(void)
     printf("Found %d at index: %d\n\n", 1, jump_search(array, size, 1));
     printf("Found %d at index: %d\n", 999, jump_search(array, size, 999));
     printf("Found %d at index: %d\n\n", 11, jump_search(array, size, 11));
+    printf("Found %d at index: %d\n\n", 10, jump_search(array, size, 10));
    
     return (EXIT_SUCCESS);
 }

@@ -17,7 +17,7 @@ int jump_search(int *array, size_t size, int value)
 	{
 		printf("Value checked array[%i] = [%i]\n", i, array[i]);
 		if (array[i] == value)
-			return i;
+			return (i);
 		if (array[i + jump] < value)
 		{
 			i += jump;
@@ -33,35 +33,33 @@ int jump_search(int *array, size_t size, int value)
 	{
 		printf("Value checked array[%i] = [%i]\n", i, array[i]);
 		if (array[i] == value)
-			return i;
-		else
-			i++;
+			return (i);
+		i++;
 	}
-	return -1;
-
-	/*
-	int a = 0;
-	int n = size;
-	int b = sqrt(n);
-
-	while (array[(int) fmin(b, n) - 1] < value)
-	{
-		printf("Value checked array[%i] = [%i]\n", a, array[a]);
-		a = b;
-		b = b + sqrt(n);
-		if (a >= n)
-			return (-1);
-	}
-	while (array[a] < value)
-	{
-		printf("Value checked array[%i] = [%i]\n", a, array[a]);
-		a++;
-		if (a == fmin(b, n))
-			return (-1);
-	}
-	if (array[a] == value)
-		return (a);
-
 	return (-1);
-	*/
 }
+/*
+ *	int a = 0;
+ *	int n = size;
+ *	int b = sqrt(n);
+ *
+ *	while (array[(int) fmin(b, n) - 1] < value)
+ *	{
+ *		printf("Value checked array[%i] = [%i]\n", a, array[a]);
+ *		a = b;
+ *		b = b + sqrt(n);
+ *		if (a >= n)
+ *			return (-1);
+ *	}
+ *	while (array[a] < value)
+ *	{
+ *		printf("Value checked array[%i] = [%i]\n", a, array[a]);
+ *		a++;
+ *		if (a == fmin(b, n))
+ *			return (-1);
+ *	}
+ *	if (array[a] == value)
+ *		return (a);
+ *
+ *	return (-1);
+ */
